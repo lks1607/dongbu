@@ -1,0 +1,24 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Inter:wght@400;500;900&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+

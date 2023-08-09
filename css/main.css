@@ -1,0 +1,308 @@
+main{
+    width: 100%;
+}
+
+.slide{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-top: 5px solid #00A88E;;
+    border-bottom: 5px solid #ED6D00;
+}
+
+.slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main_tab{
+    width: 100%;
+    background:no-repeat center/cover url("../img/bg_tBar.jpg");
+    text-align: center;
+}
+
+.main_tab ul{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main_tab ul li span:first-child{
+    margin-bottom: 20px;
+}
+
+.main_tab_img1{
+    display: block;
+    background-image: url(../img/icon1.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab1 a:hover .main_tab_img1{
+    display: block;
+    background-image: url(../img/icon1.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab_img2{
+    display: block;
+    background-image: url(../img/icon2.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab2 a:hover .main_tab_img2{
+    display: block;
+    background-image: url(../img/icon2.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab_img3{
+    display: block;
+    background-image: url(../img/icon3.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab3 a:hover .main_tab_img3{
+    display: block;
+    background-image: url(../img/icon3.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab_img4{
+    display: block;
+    background-image: url(../img/icon4.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab4 a:hover .main_tab_img4{
+    display: block;
+    background-image: url(../img/icon4.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab_img5{
+    display: block;
+    background-image: url(../img/icon5.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab5 a:hover .main_tab_img5{
+    display: block;
+    background-image: url(../img/icon5.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab_img6{
+    display: block;
+    background-image: url(../img/icon6.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab6 a:hover .main_tab_img6{
+    display: block;
+    background-image: url(../img/icon6.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab_img7{
+    display: block;
+    background-image: url(../img/icon7.png);
+    background-size: 100px 218px;
+    background-position: 0 -109px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+.main_tab7 a:hover .main_tab_img7{
+    display: block;
+    background-image: url(../img/icon7.png);
+    background-size: 100px 218px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 109px;
+}
+
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.banner div{
+    width: 290px;
+    border-top: 2px solid #00A88E;
+}
+
+.banner div .banner_img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner_info{
+    width: 290px;
+    height: 150px;
+    padding: 20px;
+    background-color: #eee;
+    position: relative;
+}
+
+.banner_info p{
+    width: 70%;
+    margin-top: 5px;
+}
+
+.plus_btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.quickMenu_News{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quickMenu_News strong{
+    font-size: 25px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.quickMenu{
+    width: 550px;
+    height: 200px;
+}
+
+.quickMenu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quickMenu ul li a{
+    text-align: center;
+}
+
+.customer{
+    display: block;
+    background-image: url(../img/qicon1.png);
+    background-repeat: no-repeat;
+    background-size: 68px 102px;
+    background-position: 0 0;
+    width: 68px;
+    height: 47px;
+}
+
+.manager{
+    display: block;
+    background-image: url(../img/qicon2.png);
+    background-repeat: no-repeat;
+    background-size: 50px 112px;
+    background-position: 0 0;
+    width: 50px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.proof{
+    display: block;
+    background-image: url(../img/qicon3.png);
+    background-repeat: no-repeat;
+    background-size: 41px 105px;
+    background-position: 0 0;
+    width: 41px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.map{
+    display: block;
+    background-image: url(../img/qicon4.png);
+    background-repeat: no-repeat;
+    background-size: 43px 106px;
+    background-position: 0 0;
+    width: 43px;
+    height: 51px;
+    margin: 0 auto;
+}
+
+.News{
+    width: 550px;
+    height: 100%;
+    /* position: relative; */
+}
+
+.News span{
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+
